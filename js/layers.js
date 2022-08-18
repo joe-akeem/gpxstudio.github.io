@@ -144,6 +144,26 @@ const layers = {
         maxNativeZoom: 18,
         attribution: '&copy; <a href="https://www.waymarkedtrails.org" target="_blank">Waymarked Trails</a>'
     }),
+    mtbS0: L.tileLayer('http://localhost:8080/styles/mtbS0/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        maxNativeZoom: 13
+    }),
+    mtbS1: L.tileLayer('http://localhost:8080/styles/mtbS1/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        maxNativeZoom: 13
+    }),
+    mtbS2: L.tileLayer('http://localhost:8080/styles/mtbS2/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        maxNativeZoom: 13
+    }),
+    mtbS3: L.tileLayer('http://localhost:8080/styles/mtbS3/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        maxNativeZoom: 13
+    }),
+    mtbS4: L.tileLayer('http://localhost:8080/styles/mtbS4/{z}/{x}/{y}.png', {
+        maxZoom: 20,
+        maxNativeZoom: 13
+    }),
     stravaHeatmapRide: L.tileLayer('', {
         maxZoom: 20,
         maxNativeZoom: 14,

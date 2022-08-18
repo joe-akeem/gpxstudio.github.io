@@ -559,6 +559,13 @@ export default class Buttons {
                                 "Horse riding": layers.waymarkedTrailsHorseRiding,
                                 "Slopes": layers.waymarkedTrailsWinter
                             },
+                            "MTB Singletrails": {
+                                "S0": layers.mtbS0,
+                                "S1": layers.mtbS1,
+                                "S2": layers.mtbS2,
+                                "S3": layers.mtbS3,
+                                "S4+": layers.mtbS4
+                            },
                             "POI": pointsOfInterestLayers,
                             "Countries": {
                                 "France": {
@@ -600,6 +607,9 @@ export default class Buttons {
                                 "Skating": true,
                                 "Horse riding": true,
                                 "Slopes": true
+                            },
+                            "Trail Difficulties": {
+                                "MTB Scale": true,
                             },
                             "POI": pointsOfInterestLayerSelection
                         }
