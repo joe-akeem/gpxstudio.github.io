@@ -32,6 +32,10 @@ To play with the code locally:
 
 Read the [User Guide](https://gpx.studio/about.html#guide) for more details.
 
+## joe-akeem's Custom MTB layers
+
+To make use of additional layers with MTB scales, locally build and serve custom layers with this project: https://github.com/joe-akeem/openmaptiles-mtb
+
 ## Contributing
 
 If you think something is missing from the website, please create an issue to discuss it or make a pull request if you can implement it yourself.
